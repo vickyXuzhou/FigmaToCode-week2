@@ -1,0 +1,10 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 3rem 10rem;
+  justify-content: space-between;
+}
+.icons img {
+  width: 10rem;
+}

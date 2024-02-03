@@ -1,0 +1,26 @@
+.section2 {
+  display: flex;
+  padding: 2rem 10rem;
+  width: 100%;
+  gap: 2rem;
+  flex-direction: row;
+}
+.bigPic {
+  flex: 1;
+}
+
+.bigPic img {
+  width: 100%;
+}
+.semiPic {
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.semiPic div {
+  width: 46.5%;
+}
+.semiPic img {
+  width: 100%;
+}

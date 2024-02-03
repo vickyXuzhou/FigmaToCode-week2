@@ -1,0 +1,53 @@
+.headerbody {
+  padding: 3rem 10rem;
+  background-color: #f1f2f5;
+  width: 100%;
+  display: flex;
+  font-family: Roboto;
+  font-weight: 400;
+  height: 70vh;
+  gap: 3rem;
+  /* box-sizing: content-box; */
+}
+.sectionHeaderBody h2 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 4rem;
+}
+.sectionHeaderBody p {
+  font-weight: 400;
+  font-size: 30px;
+  word-spacing: 5px;
+}
+.sectionHeaderBody {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex: 1; */
+}
+.space {
+  line-height: 3rem;
+  width: 60%;
+}
+.space * {
+  padding: 1rem 0;
+}
+
+.headerBodyImg {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  /* flex: 1; */
+}
+.flower {
+  width: 10rem;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.half {
+  position: absolute;
+  left: 0;
+  top: 80%;
+}

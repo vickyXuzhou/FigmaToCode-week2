@@ -1,0 +1,48 @@
+.section4 {
+  display: flex;
+  padding: 2rem 0rem;
+  width: 100%;
+  align-items: center;
+  font-family: Roboto;
+  position: relative;
+  color: white;
+}
+.sec4Img {
+  width: 100%;
+}
+.sec4Img img {
+  width: 100%;
+  /* object-fit: cover; */
+}
+.zaraBig {
+  position: absolute;
+  width: 25em;
+  /* height: 7rem; */
+  right: 0%;
+  top: 15%;
+}
+.zara2Div {
+  width: 8em;
+}
+.zara2Div img {
+  width: 100%;
+}
+.section4Text {
+  width: 30%;
+  left: 60%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 2.5rem;
+}
+.section4minisec {
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+.section4minisec p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 40px;
+}
